@@ -1,1 +1,5 @@
-print("Data engineering pipeline started")
+def transform_name(name):
+    return name.lower()
+
+
+print(transform_name("retail sales"))
