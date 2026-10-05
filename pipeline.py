@@ -1,5 +1,5 @@
 def transform_name(name):
-    return name.lower()
+    return name.strip().upper()
 
 
 print(transform_name("retail sales"))
